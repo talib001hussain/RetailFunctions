@@ -1,13 +1,13 @@
-package service;
+package com.springbootmicroservices.productservice.service;
 
 
-import dto.ProductRequest;
-import dto.ProductResponse;
+import com.springbootmicroservices.productservice.dto.ProductRequest;
+import com.springbootmicroservices.productservice.dto.ProductResponse;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
-import model.Product;
+import com.springbootmicroservices.productservice.model.Product;
 import org.springframework.stereotype.Service;
-import repository.ProductRepository;
+import com.springbootmicroservices.productservice.repository.ProductRepository;
 
 import java.util.List;
 

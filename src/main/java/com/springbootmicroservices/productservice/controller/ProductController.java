@@ -1,11 +1,11 @@
-package controller;
+package com.springbootmicroservices.productservice.controller;
 
-import dto.ProductRequest;
-import dto.ProductResponse;
+import com.springbootmicroservices.productservice.dto.ProductRequest;
+import com.springbootmicroservices.productservice.dto.ProductResponse;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
-import service.ProductService;
+import com.springbootmicroservices.productservice.service.ProductService;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package dto;
+package com.springbootmicroservices.productservice.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
